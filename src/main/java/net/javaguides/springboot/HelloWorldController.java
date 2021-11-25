@@ -10,7 +10,7 @@ public class HelloWorldController {
 	@GetMapping("/hello")
 	public String hello(Model model)
 	{
-		model.addAttribute("message", "Hello World");
+		model.addAttribute("message", "Welcome to my page");
 		return "helloworld";
 		
 	}
