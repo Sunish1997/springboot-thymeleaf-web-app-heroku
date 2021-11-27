@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloWorldController {
 
-	@GetMapping("/hello")
+	@GetMapping("/dance")
 	public String hello(Model model)
 	{
-		model.addAttribute("message", "Welcome to my page");
+		model.addAttribute("message", " Welcome to my page ");
 		return "helloworld";
 		
 	}
